@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# server-02 login
+
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/authenth
+
+
+ssh ubuntu@54.172.139.5
