@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# load balance server-01 login
+
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/authenth
+
+
+ssh ubuntu@54.160.112.138
